@@ -1,0 +1,801 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    width: 100%;
+    height: 5630px;
+}
+
+header .intro {
+    background-image: url(../Image/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 135vh;
+    position: relative;
+}
+
+header .intro .list ul {
+    width: 45%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .intro .list ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+header .intro .list ul li :hover {
+    color: #04b0ea;
+}
+
+header .intro div h3 {
+    color: white;
+    width: 73px;
+    position: absolute;
+    top: 23px;
+    margin-left: 29px;
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+header .intro .crypto {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+
+header .intro .crypto h1 {
+    color: white;
+    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+}
+
+header .intro .crypto p {
+    line-height: 24px;
+    margin-top: 10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+header .intro .crypto a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 163px;
+    height: 40px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 40px;
+    background-color: #04bcf4;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+}
+
+header .intro .crypto a:hover {
+    background-color: #0c84ac;
+}
+
+header .intro .animation {
+    position: absolute;
+    top: 155px;
+    right: 160px;
+    height: 480px;
+}
+
+header .intro .animation img {
+    width: 540px;
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(45px);
+    }
+
+
+    100% {
+        transform: translateY(-45px);
+
+    }
+}
+header .intro .point{
+    display: flex;
+    position: absolute;
+    left: 750px;
+    bottom: 175px;
+}
+header .intro .point div{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 5px;
+    transition: all .5s;
+}
+header .intro .point div:hover{
+    background-color: #04bcf4;
+    width: 20px;
+    height: 20px;
+}
+header .Services {
+    margin: 0;
+    margin-top: 110px;
+}
+
+
+header .Services h4 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+header .Services h4 span {
+    color: #04bcf4;
+}
+
+header .Services p {
+    text-align: center;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    padding-top: 12px;
+}
+
+header .box {
+    display: flex;
+    margin: 0;
+    margin-top: 45px;
+}
+
+/* __________________________box1______________________________ */
+header .box .box1 {
+    width: 360px;
+    height: 280px;
+    background-color: #d4d4d430;
+    text-align: center;
+    margin: 0;
+    margin-left: 190px;
+}
+
+header .box .box1 img {
+    width: 75px;
+    margin-top: 25px;
+}
+
+header .box .box1 h5 {
+    padding-top: 12px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+header .box .box1 p {
+    line-height: 23px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+}
+
+header .box .box1 a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 22px;
+}
+
+header .box .box1 a:hover {
+    color: #04bcf4;
+}
+
+/* ____________________box2________________________ */
+header .box .box2 {
+    width: 360px;
+    height: 280px;
+    background-color: #d4d4d430;
+    text-align: center;
+    margin: 0;
+    margin-left: 30px;
+}
+
+header .box .box2 img {
+    width: 75px;
+    margin-top: 25px;
+}
+
+header .box .box2 h5 {
+    padding-top: 12px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+header .box .box2 p {
+    line-height: 23px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+}
+
+header .box .box2 a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 22px;
+}
+
+header .box .box2 a:hover {
+    color: #04bcf4;
+}
+
+/* __________box3__________ */
+header .box .box3 {
+    width: 360px;
+    height: 280px;
+    background-color: #d4d4d430;
+    text-align: center;
+    margin: 0;
+    margin-left: 30px;
+}
+
+header .box .box3 img {
+    width: 75px;
+    margin-top: 25px;
+}
+
+header .box .box3 h5 {
+    padding-top: 12px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+header .box .box3 p {
+    line-height: 23px;
+    font-family: "Roboto", sans-serif;
+    padding-top: 5px;
+}
+
+header .box .box3 a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 22px;
+}
+
+header .box .box3 a:hover {
+    color: #04bcf4;
+}
+
+header .view {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #04b0ea;
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    margin-top: 49px;
+    margin-left: 690px;
+}
+
+header .view:hover {
+    background-color: #0c84ac;
+}
+
+
+/* __________________part________________ */
+header .about {
+    margin: 0;
+    margin-top: 80px;
+    background-color: #04244c;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+header .about h6 {
+    padding-top: 85px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 32px;
+}
+
+header .about h6 span {
+    color: #04bcf4;
+}
+
+header .about p {
+    padding-top: 13px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+header .about .imte {
+    display: flex;
+}
+
+header .about .imte img {
+    width: 535px;
+    height: 494px;
+    margin-left: 230px;
+}
+
+header .about .imte div {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: left;
+    line-height: 26px;
+    margin-left: 35px;
+}
+
+header .about .imte div a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #04b0ea;
+    text-align: center;
+    display: block;
+    width: 160px;
+    height: 45px;
+    padding-top: 11px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+header .about .imte div a:hover {
+    background-color: #0c84ac;
+}
+
+/* ________________main section1__________________ */
+main .section1 {
+    text-align: center;
+}
+
+main .section1 h6 {
+    padding-top: 85px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 32px;
+}
+
+main .section1 h6 span {
+    color: #04bcf4;
+}
+
+main .section1 div div {
+    width: 110px;
+    height: 110px;
+    border: 5px #04244c solid;
+    border-radius: 50%;
+    margin-left: 700px;
+    margin-top: 35px;
+}
+
+main .section1 div div img {
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+}
+
+main .section1 div h6 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 21px;
+    padding: 0;
+    padding-top: 24px;
+}
+
+main .section1 div p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    line-height: 24px;
+    padding-top: 5px;
+}
+
+main .section1 a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #04b0ea;
+    text-align: center;
+    display: block;
+    width: 175px;
+    height: 45px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+main .section1 a:hover {
+    background-color: #0c84ac;
+}
+
+/* __________________section2____________________ */
+main .section2 div {
+    background-color: #04244c;
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+main .section2 div h6 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+main .section2 div h6 span {
+    color: #04bcf4;
+}
+
+main .section2 div div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .section2 div div div {
+    width: 350px;
+    height: 330px;
+    background-color: #042c60;
+    text-align: center;
+    display: inline;
+    margin-top: 50px;
+}
+
+main .section2 div div div .team {
+    width: 110px;
+    height: 110px;
+    border: 5px white solid;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+main .section2 div div div .name {
+    color: #04bcf4;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+main .section2 div div div .jop {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding-top: 11px;
+    box-sizing: border-box;
+    color: white;
+}
+main .section2 div div div .icons{
+    display: flex;
+}
+main .section2 div div div .icons i{
+    color: white;
+    font-size: 20px;
+    transition: all .5s;
+}
+main .section2 div div div .icons i:hover{
+    color: #04bcf4;
+}
+
+/* ___________________section3______________ */
+main .section3 h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+main .section3 h3 span {
+    color: #04bcf4;
+}
+
+main .section3 .customers {
+    display: flex;
+    margin-top: 100px;
+    position: relative;
+}
+main .section3 .customers .LusDen {
+    width: 480px;
+    height: 225px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    padding-top: 70px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-left: 250px;
+    box-shadow: 5px 5px 5px #e6e6e48f,
+        -5px -5px 5px #e6e6e48f;
+    position: relative;
+}
+main .section3 .customers .LusDen div{
+    display: flex;
+}
+main .section3 .customers .LusDen div i{
+position: absolute;
+right: 20px;
+font-size: 19px;
+}
+main .section3 .customers .LusDen div .text {
+    font-size: 17px;
+}
+main .section3 .customers .LusDen .p1 {
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+main .section3 .customers .LusDen .p2 {
+    padding-top: 10px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+main .section3 .customers .zen {
+    width: 480px;
+    height: 225px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    padding-top: 70px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-left: 40px;
+    box-shadow: 5px 5px 5px #e6e6e48f,
+        -5px -5px 5px #e6e6e48f;
+    position: relative;    
+}
+main .section3 .customers .zen div{
+    display: flex;
+}
+main .section3 .customers .zen div i{
+position: absolute;
+right: 20px;
+font-size: 19px;
+}
+main .section3 .customers .zen.text {
+    font-size: 17px;
+}
+
+main .section3 .customers .zen .p1 {
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+main .section3 .customers .zen .p2 {
+    padding-top: 10px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+main .section3 .man {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4497px;
+    left: 277px;
+}
+
+main .section3 .woman {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4497px;
+    left: 796px;
+}
+
+main .section3 .icons {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 695px;
+    cursor: pointer;
+}
+
+main .section3 .icons .right {
+    width: 58px;
+    height: 54px;
+    text-align: center;
+    padding-top: 18px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 5px #e6e6e48f,
+        -5px -5px 5px #e6e6e48f;
+}
+
+main .section3 .icons .left {
+    width: 58px;
+    height: 54px;
+    text-align: center;
+    padding-top: 18px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #e6e6e48f,
+        -5px -5px 5px #e6e6e48f;
+}
+
+main .section3 .m{
+    position: absolute;
+}
+/* _________________section4________________ */
+main .section4 {
+    width: 100%;
+    height: 50vh;
+    background-color: #04244c;
+    margin-top: 80px;
+}
+
+main .section4 .box {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 50px;
+
+}
+
+main .section4 .box .box1 {
+    width: 175px;
+    height: 100%;
+    margin-left: 160px;
+    box-sizing: border-box;
+}
+main .section4 .box .box1 p{
+    color: white;
+    font-size: 26px;
+}
+main .section4 .box .box1 ul {
+    margin-top: 22px;
+    line-height: 35px;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+main .section4 .box .box1  ul li a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+main .section4 .box .box1 ul pre {
+    font-family: "Roboto", sans-serif;
+}
+main .section4 .box .box1 ul .icons a i{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: all .5s;
+}
+main .section4 .box .box1 ul .icons a i:hover{
+    color: #04bcf4;
+
+}
+
+
+main .section4 .box .box1 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main .section4 .box .box1 ul li a:hover {
+    color: #04bcf4;
+}
+
+main .section4 .box .box2 {
+    margin-left: 120px;
+}
+
+main .section4 .box .box2 .p1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+main .section4 .box .box2 .p2 {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+    margin-top: 22px;
+    color: white;
+}
+
+main .section4 .box .box3 {
+    margin-left: 100px;
+}
+
+main .section4 .box .box3 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+main .section4 .box .box3 ul {
+    margin-top: 22px;
+    line-height: 40px;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+main .section4 .box .box3 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main .section4 .box .box3 ul li a:hover {
+    color: #04bcf4;
+}
+
+main .section4 .box .box4 {
+    margin-left: 200px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+main .section4 .box .box4 form {
+    margin-top: 30px;
+    width: 220px;
+    height: 40px;
+}
+
+main .section4 .box .box4 form .in1 {
+    width: 250px;
+    height: 45px;
+    outline: none;
+    background-color: #04244c;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    border-width:0 0 1px 0;
+    border-color: white;
+}
+main .section4 .box .box4 form ::placeholder{
+    color: white;
+}
+main .section4 .box .box4 form .in2 {
+    width: 250px;
+    height: 45px;
+    margin-top: 13px;
+    background-color: #04bcf4;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+main .section4 .box .box4 form .in2:hover{
+    background-color:#0c84ac ;
+}
+
+/* _________________footer_______________ */
+footer p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 25px;
+    text-align: center;
+}
